@@ -1,0 +1,30 @@
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Generated search results and full-text downloads
+result.json
+results.json
+fulltext/
+downloads/
+fetch-manifest.json
+*.log
+
+# Local skill installation metadata
+_skillhub_meta.json
+
+# Dependencies, editor files, and operating-system metadata
+node_modules/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
